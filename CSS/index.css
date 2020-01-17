@@ -1,17 +1,49 @@
 * {
   box-sizing: border-box;
-  border: 1px solid black;
   margin: 0;
   padding: 0;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 5rem;
+  padding: 3%;
+  text-align: center;
+}
+h3 {
+  font-size: 4rem;
+}
+p {
+  font-size: 3rem;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
 .hero-section {
   height: 80vh;
   background-image: url(/assets/wes-hicks-t5_UZDAW5Kw-unsplash.jpg);
   background-position: center;
   background-size: cover;
+  padding: 10%;
+}
+.hero-section h1,
+.hero-section p {
+  background-color: rgba(1, 1, 1, 0.2);
+  padding: 3%;
+  color: white;
 }
 .education-section {
-  height: 50vh;
+  height: 60vh;
+  padding: 10%;
+  background-color: red;
+  color: white;
+}
+.skills-section {
+  background-color: dimgray;
+  color: white;
+  text-align: center;
 }
 .skill-card-container {
   display: flex;
@@ -24,11 +56,42 @@
   flex-direction: column;
 }
 .projects-section {
-  height: 120vh;
+  background-color: dodgerblue;
+  color: white;
+}
+.projects-section h2 {
+  margin-bottom: 10vh;
 }
 .projects-section .project-card {
   height: 33%;
+  width: 100%;
+}
+.projects-section .project-card h2 {
+  width: auto;
+  text-align: center;
+}
+.projects-section .project-card img {
+  width: 100%;
+}
+.projects-section .project-card p {
+  text-align: center;
+  padding: 1% 5%;
+  padding-bottom: 8%;
+}
+.projects-section .project-card:nth-child(2) {
+  border-top: 5vh solid darkblue;
+}
+.projects-section .project-card:nth-child(3) {
+  border-top: 5vh solid darkblue;
 }
 .contact-section {
-  height: 30vh;
+  padding: 10%;
+  height: 50vh;
+  background-color: dimgray;
+  color: white;
+}
+footer {
+  text-align: center;
+  background-color: dimgray;
+  color: white;
 }

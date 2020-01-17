@@ -1,9 +1,19 @@
 .education-section {
-    height: 50vh;
+    height: 60vh;
+    padding: 10%;
+    background-color: red;
+    color: white;
+}
+
+.skills-section {
+    background-color: dimgray;
+    color: white;
+    text-align: center;
 }
 .skill-card-container {
     display: flex;
     flex-wrap: wrap;
+    
 
     .skill-card{
         width: 50%;
@@ -14,13 +24,52 @@
 }
 
 .projects-section {
-    height: 120vh;
+    background-color: dodgerblue;
+    color: white;
+
+    h2 {
+        margin-bottom: 10vh;
+    }
+
     
+    
+        
+    
+        
     .project-card {
+        h2 {
+            width: auto;
+            text-align: center;            
+        }
         height: 33%;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+        p {
+            text-align: center;
+            padding: 1% 5%;
+            padding-bottom: 8%;
+        }
+
+        &:nth-child(2){
+            border-top: 5vh solid darkblue;
+        }
+        &:nth-child(3){
+            border-top: 5vh solid darkblue;
+        }
     }
 }
 
 .contact-section {
-    height: 30vh;
+    padding: 10%;
+    height: 50vh;
+    background-color: dimgray;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: dimgray;
+    color: white;
 }
